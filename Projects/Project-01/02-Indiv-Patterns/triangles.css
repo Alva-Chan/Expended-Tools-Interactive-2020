@@ -1,0 +1,840 @@
+.parent{
+	position:absolute;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+
+.parent2{
+	position: relative;
+	top: 90px;
+	left:110px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent3{
+	position: absolute;
+	top:190px;
+	left:225px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent4{
+	position: absolute;
+	top: -10px;
+	left:430px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent5{
+	position: absolute;
+	top: 90px;
+	left:110px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent6{
+	position: absolute;
+	top: 90px;
+	left:530px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+.parent7{
+	position: absolute;
+	top: 80px;
+	left:530px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent8{
+	position: absolute;
+	top:175px;
+	left:645px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent9{
+	position:absolute;
+	top: -200px;
+	left:200px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+
+.parent10{
+	position: relative;
+	top: -700px;
+	left:300px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent11{
+	position: absolute;
+	top:-20px;
+	left:420px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent12{
+	position: absolute;
+	top: -10px;
+	left:410px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent9{
+	position:absolute;
+	top: -200px;
+	left:200px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+
+.parent10{
+	position: relative;
+	top: -700px;
+	left:300px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent11{
+	position: absolute;
+	top:-20px;
+	left:420px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent12{
+	position: absolute;
+	top: -10px;
+	left:410px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent13{
+	position:absolute;
+	top: -180px;
+	left:620px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+
+.parent14{
+	position: relative;
+	top: -1300px;
+	left:720px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent15{
+	position: absolute;
+	top:-80px;
+	left:720px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
+
+.parent16{
+	position: absolute;
+	top: 0px;
+	left:830px;
+}
+
+.triangletop{
+		width: 0;
+		height: 0;
+		border-top:100px solid black;
+		border-right:100px solid transparent;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleright{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-right:100px solid black;
+		border-bottom:100px solid transparent;
+		
+	}
+	
+.trianglebottom{
+		width: 0;
+		height: 0;
+		border-right:100px solid transparent;
+		border-bottom:100px solid black;
+		border-left:100px solid transparent;
+		
+	}
+	
+.triangleleft{
+		width: 0;
+		height: 0;
+		border-top:100px solid transparent;
+		border-bottom:100px solid transparent;
+		border-left:100px solid black;
+		
+	}
