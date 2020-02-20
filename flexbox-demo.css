@@ -1,0 +1,66 @@
+#container-1{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+#container-2{
+	display:flex;
+	flex-direction: row-reverse;
+	flex-wrap:wrap;
+	justify-content: flex-end;
+}
+
+#container-3{
+	display:flex;
+	flex-direction: row-reverse;
+	flex-wrap:wrap;
+	justify-content: flex-start;
+}
+
+.green-1{
+	width: 200px;
+	height:200px;
+	background: #00FF00;
+	margin:20px;
+	position: fixed;
+	top:35%;
+	left:35%;
+	mix-blend-mode:color-burn;
+}
+
+.purple-1{
+	width: 200px;
+	height:200px;
+	background: #8E44AD;
+	margin:20px;
+}
+
+.purple-2{
+	width: 200px;
+	height:200px;
+	background: #9B59B6 ;
+	margin:20px;
+}
+
+.purple-3{
+	width: 200px;
+	height:200px;
+	background: #A569BD;
+	margin:20px;
+}
+
+.purple-4{
+	width: 200px;
+	height:200px;
+	background: #AF7AC5 ;
+	margin:20px;
+}
+
+.purple-5{
+	width: 200px;
+	height:200px;
+	background: #D2B4DE ;
+	margin:20px;
+}

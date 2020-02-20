@@ -1,0 +1,39 @@
+body{
+	padding: 0 ;
+    margin: 0;
+    background-color:#FFD700;
+    background-image: radial-gradient(
+    	#4682B4 60px,
+    	transparent 60px
+    	);
+    background-size: 120px 120px;
+}
+.heart {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      display: block;
+      margin-top: 100px;
+      left: 50%;
+      margin-left: -50px;
+     
+
+    }
+.heart:before,
+.heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: pink;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+.heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
