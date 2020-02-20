@@ -1,0 +1,1955 @@
+.background{background-size: 15px
+width:3px;
+height:3px;
+}
+
+.parent{
+  position: absolute;
+  top: 11px;
+  left:0px;
+}
+
+.diamond {
+	position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond2 {
+	position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: red;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond2:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: red;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square2 {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent2{
+	position: absolute;
+	top: 11px;
+	left:50px;
+}
+
+.diamond3 {
+	position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+	position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent3{
+	position: absolute;
+	top: 11px;
+	left:100px;
+}
+
+.diamond {
+	position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+
+
+.parent4{
+	position: absolute;
+	top: 11px;
+	left:150px;
+}
+
+.diamond3 {
+position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+	position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+
+.parent5{
+	position: absolute;
+	top: 11px;
+	left:200px;
+}
+
+.diamond {
+	position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent6{
+  position: absolute;
+  top: 11px;
+  left:250px;
+}
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent7{
+  position: absolute;
+  top: 11px;
+  left:300px;
+}
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent8{
+  position: absolute;
+  top: 11px;
+  left:350px;
+}
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+
+.parent9{
+  position: absolute;
+  top: 11px;
+  left:400px;
+}
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent10{
+  position: absolute;
+  top: 11px;
+  left:450px;
+}
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+  .parent11{
+  position: absolute;
+  top: 11px;
+  left:500px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+  .parent12{
+  position: absolute;
+  top: 11px;
+  left:550px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+
+  .parent13{
+  position: absolute;
+  top: 11px;
+  left:600px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent14{
+  position: absolute;
+  top: 11px;
+  left:650px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+    .parent15{
+  position: absolute;
+  top: 11px;
+  left:700px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent16{
+  position: absolute;
+  top: 11px;
+  left:750px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+    .parent17{
+  position: absolute;
+  top: 11px;
+  left:800px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent18{
+  position: absolute;
+  top: 11px;
+  left:850px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+ .parent19{
+  position: absolute;
+  top: 11px;
+  left:900px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent20{
+  position: absolute;
+  top: 11px;
+  left:950px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+ .parent21{
+  position: absolute;
+  top: 11px;
+  left:1000px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent22{
+  position: absolute;
+  top: 11px;
+  left:1050px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent23{
+  position: absolute;
+  top: 11px;
+  left:1100px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent24{
+  position: absolute;
+  top: 11px;
+  left:1150px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent25{
+  position: absolute;
+  top: 11px;
+  left:1200px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent26{
+  position: absolute;
+  top: 11px;
+  left:1250px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+  .parent27{
+  position: absolute;
+  top: 11px;
+  left:1300px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent28{
+  position: absolute;
+  top: 11px;
+  left:1350px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+    .parent29{
+  position: absolute;
+  top: 11px;
+  left:1400px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent30{
+  position: absolute;
+  top: 11px;
+  left:1450px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent31{
+  position: absolute;
+  top: 11px;
+  left:1500px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+ .parent32{
+  position: absolute;
+  top: 11px;
+  left:1550px;
+}  
+
+.diamond3 {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: green;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: green;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square3 {
+      width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.diamond4 {
+  position::absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: orange;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond4:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: orange;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square4 {
+      width: 100px;
+      height: 100px;
+      background: green;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.parent33{
+  position: absolute;
+  top: 11px;
+  left:1600px;
+}  
+
+.diamond {
+  position:absolute;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: blue;
+       opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.diamond:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: blue;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+ .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
