@@ -44,7 +44,8 @@
       margin:-5px;      
 }
 .circle:hover {
-  background: blue;
+  background: #6495ED;
+  transform:matrix(1, -0.3, 0, 1, 0, 0);
 }
 
 .circle2{
@@ -55,6 +56,9 @@
       opacity: 0.7;
       border-radius: 50%;       
      
+}
+.circle2:hover{
+  transform: translate(50px,50px);
 }
 
 .circle3{
@@ -77,8 +81,8 @@
 }
 
 .circle4:hover{
-  background: blue;
-
+  background: #db7093;
+ transform:matrix(1, -0.3, 0, 1, 0, 0);
 }
 
 .circle5{
