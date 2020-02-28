@@ -8,8 +8,13 @@
 		border-top:100px solid black;
 		border-right:100px solid transparent;
 		border-left:100px solid transparent;
-		
+
 	}
+
+.triangletop:hover{
+  transform: rotate(90deg);
+}
+
 	
 .triangleright{
 		width: 0;
@@ -19,6 +24,10 @@
 		border-bottom:100px solid transparent;
 		
 	}
+
+.triangleright:hover{
+  transform: rotate(45deg);
+}
 	
 .trianglebottom{
 		width: 0;
@@ -28,6 +37,11 @@
 		border-left:100px solid transparent;
 		
 	}
+
+.trianglebottom:hover{
+  transform: rotate(180deg);
+}
+
 	
 .triangleleft{
 		width: 0;
@@ -38,6 +52,9 @@
 		
 	}
 
+.triangleleft:hover{
+  transform: rotate(270deg);
+}
 
 .parent2{
 	position: relative;
