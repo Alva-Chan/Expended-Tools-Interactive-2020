@@ -1,0 +1,113 @@
+.parent{
+
+}
+
+.parent-2{
+      margin-top: -30px;
+      margin-left: 80px;
+}
+
+.parent3{
+      margin-top: -20px;
+      margin-left: 0px;
+}
+
+.parent-4{
+      margin-top: -30px;
+      margin-left: 80px;
+}
+
+.parent5{
+      margin-top: -20px;
+      margin-left: 0px;
+}
+
+.parent-6{
+      margin-top: -30px;
+      margin-left: 80px;
+}
+
+.parent7{
+      margin-top: -20px;
+      margin-left: 0px;
+}
+
+.circle{
+      
+      position: relative;
+      display: inline-block;
+       width: 150px;
+      height: 150px;
+      background: orange;
+      border-radius: 50%;
+      margin:-5px; 
+
+}
+.circle:hover {
+  background: #6495ED;
+  transform:matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.circle2{
+       position: relative;
+       width: 100px;
+      height: 100px;
+      background: pink;
+      opacity: 0.7;
+      border-radius: 50%;       
+     
+}
+.circle2:hover{
+  transform: translate(40px,40px);
+}
+
+.circle3{
+    position: relative;
+       width: 50px;
+      height: 50px;
+      background: wheat;
+      border-radius: 50%;
+}
+
+.circle4{
+      position: relative;
+      display: inline-block;
+       width: 150px;
+      height: 150px;
+      background: pink;
+      border-radius: 50%;
+      z-index: 1;
+       
+}
+
+.circle4:hover{
+  background: #db7093;
+ transform:matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.circle5{
+       
+      position: relative;
+       width: 100px;
+      height: 100px;
+      background: orange;
+      opacity: 0.7;
+      border-radius: 50%;
+      z-index: 2;
+}
+.circle5:hover{
+  transform: translate(60px,60px);
+}
+
+.circle6{
+      position: relative;
+       width: 50px;
+      height: 50px;
+      background: wheat;
+      border-radius: 50%;
+      z-index: 3;
+
+ 
+}
+
+

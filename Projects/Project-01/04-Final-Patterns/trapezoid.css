@@ -1,0 +1,791 @@
+.parent{
+}
+
+.trapezoid {
+  flex-direction: row;
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid:hover{
+  transform: scaleX(0.5);
+}
+
+
+.trapezoid2 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid2:hover{
+   transform: scaleX(0.5);
+}
+
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid3:hover{
+    transform: scale(0.5, 0.5);
+  }
+
+
+.trapezoid4 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid4:hover{
+    transform: scale(0.5, 0.5);
+  }
+
+
+  .parent2{
+  	position: absolute;
+	top: 90px;
+	left:110px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid5:hover{
+    transform: scaleY(0.5);
+  }
+
+.trapezoid6 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid6:hover{
+    transform: scaleY(0.5);
+  }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+  .trapezoid7:hover{
+    transform: skewX(20deg);
+  }
+
+.trapezoid8 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+  .trapezoid8:hover{
+    transform: skewX(20deg);
+  }
+
+
+
+
+.parent3{
+	position: absolute;
+	top: 8px;
+	left:220px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+
+
+  .parent4{
+  	position: absolute;
+	top: 90px;
+	left:330px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+
+ .parent5{
+	position: absolute;
+	top: 8px;
+	left:440px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+	position: relative;
+	top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+
+  .parent6{
+    position: absolute;
+  top: 90px;
+  left:550px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+
+   .parent7{
+  position: absolute;
+  top: 8px;
+  left:660px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent8{
+    position: absolute;
+  top: 90px;
+  left:770px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent9{
+  position: absolute;
+  top: 8px;
+  left:880px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+    .parent10{
+    position: absolute;
+  top: 90px;
+  left:990px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent11{
+  position: absolute;
+  top: 8px;
+  left:1100px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent12{
+    position: absolute;
+  top: 90px;
+  left:1210px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent13{
+  position: absolute;
+  top: 8px;
+  left:1320px;
+}
+
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.parent14{
+    position: absolute;
+  top: 90px;
+  left:1430px;
+}
+
+.trapezoid5 {
+      border-bottom: 100px solid orange;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid6 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid pink;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid7 {
+      border-bottom: 100px solid pink;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid8 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid orange;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+    .parent15{
+  position: absolute;
+  top: 8px;
+  left:1540px;
+}
+.trapezoid {
+      border-bottom: 100px solid yellow;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid2 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid blue;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+
+.trapezoid3 {
+      border-bottom: 100px solid blue;
+      opacity: 0.7;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+     
+    }
+
+.trapezoid4 {
+  position: relative;
+  top:-70px;
+      border-top: 100px solid yellow;
+      opacity: 0.4;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 100px;
+
+    }
+    }
