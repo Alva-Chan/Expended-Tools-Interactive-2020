@@ -1,0 +1,73 @@
+@import url();
+
+<div class="apple"> 
+			<div class="applestem"></div>
+</div>
+.apple{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 40% 40% 50% 50%;
+	margin: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.applestem{
+	width: 4px;
+	height: 25px;
+	background-color: brown;
+	margin-top: -5%;
+	margin-left: 50%;
+}
+
+.appleslice{
+	width:85px;
+	height:85px;
+	border-radius
+}
+
+/* Text
+-------------------------------------------------- */
+
+
+
+/* Image
+-------------------------------------------------- */
+
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  /* text */
+
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+ .apple{
+ 	background-color: green;
+ }
+
+ .appleslice
+}
+
+
+/* Orientation
+-------------------------------------------------- */
+
+@media (orientation: landscape) {
+
+  /* text */
+
+  /* image */
+
+}

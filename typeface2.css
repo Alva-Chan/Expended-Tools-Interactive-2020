@@ -1,0 +1,1537 @@
+.box1{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.oneleft{
+  width: 10px;
+    height: 210px;
+    background: red;
+   position: absolute;
+     top:70px;
+      bottom:0;
+      left:110px;
+      right:0;
+}
+.oneright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.oneleftdetail{
+    width: 10px;
+    height: 100px;
+    transform: skew(-25deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:110px;
+      right:0;
+}
+
+.box2{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-2-top{
+  width: 120px;
+  height: 100px;
+  border-color: red red transparent transparent;
+  border-radius: 60% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 50px;
+}
+.twomiddle{
+    width: 11px;
+    height: 130px;
+    transform: skew(-36deg);
+    background: red;
+  position: absolute;
+     top:115px;
+      bottom:0;
+      left:122px;
+      right:0;
+}
+.horizontalbottom{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:235px;
+      bottom:0;
+      left:82px;
+      right:0;
+}
+
+.box3{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-3{
+  width: 140px;
+  height: 110px;
+  border-color: red red red transparent ;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-3:before{
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-10px;
+  width: 145px;
+  height: 110px;
+  border-color: red red red transparent;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.box4{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.fourdiagonal{
+    width: 10px;
+    height: 130px;
+    transform: skew(-35deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.fourvertical{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.fourvertical2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:170px;
+      right:0;
+}
+.fourhorizontal{
+   width: 150px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:53px;
+      right:0;
+}
+
+.box5{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-5top{
+  width: 140px;
+  height: 110px;
+  border-color: red transparent red red  ;
+  border-radius: 0% 0% 0% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-5bottom{
+  width: 140px;
+  height: 110px;
+  border-color: red red red transparent ;
+  border-radius: 0% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+
+.box6{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-6{
+  width: 145px;
+  height: 220px;
+  border-color: red transparent red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 50px;
+}
+.letter-6:before{
+  content: "";
+  position: absolute;
+  top:85px;
+  left:-4px;
+  width: 130px;
+  height: 120px;
+  border-color: red red red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 11px;
+}
+
+.box7{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.sevenhorizontal1{
+   width: 155px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.sevenhorizontal2{
+   width: 140px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:50px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.sevenhorizontal3{
+   width: 100px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:150px;
+      bottom:0;
+      left:70px;
+      right:0;
+}
+.sevenleft{
+    width: 11px;
+    height: 260px;
+    transform: skew(-25deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:130px;
+      right:0;
+}
+
+.box8{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-8{
+  width: 120px;
+  height: 100px;
+  border-color: red red red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 60px;
+}
+.letter-8:before{
+  content: "";
+  position: absolute;
+  top:100px;
+  left:-15px;
+  width: 130px;
+  height: 120px;
+  border-color: red red red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.box9{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.ninevertical{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:180px;
+      right:0;
+}
+.ninevertical2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:210px;
+      right:0;
+}
+.letter-9{
+  width: 120px;
+  height: 120px;
+  border-color: red red red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 50px;
+}
+
+.boxA{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Aleft{
+    width: 10px;
+    height: 260px;
+    transform: skew(-15deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Aright{
+    width: 10px;
+    height: 260px;
+    transform: skew(15deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Ahorizontal1{
+   width: 60px;
+    height: 10px;
+    background: red;
+    position: absolute;
+     top:120px;
+      bottom:0;
+      left:104px;
+      right:0;
+}
+.Ahorizontal2{
+   width: 90px;
+    height: 10px;
+    background: red;
+    position: absolute;
+     top:160px;
+      bottom:0;
+      left:87px;
+      right:0;
+}
+
+.boxB{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-B{
+  width: 140px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-B:before{
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-10px;
+  width: 145px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+}
+.Bleft2{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxC{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-C{
+  width: 150px;
+  height: 250px;
+  border-color: red transparent red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Cleft2{
+  width: 10px;
+    height: 255px;
+    background: red;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxD{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-D{
+  width: 150px;
+  height: 220px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.Dleft2{
+  width: 10px;
+    height: 230px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxE{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Eleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Eleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Ehorizontal3{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+
+.boxF{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Fleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Fleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxG{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-G{
+  width: 150px;
+  height: 250px;
+  border-color: red transparent red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Gleft2{
+  width: 10px;
+    height: 255px;
+    background: red;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Gright1{
+   width: 80px;
+    height: 10px;
+    background: red;
+    position: absolute;
+     top:170px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.Gright2{
+   width: 10px;
+    height: 120px;
+    background: red;
+    position: absolute;
+     top:170px;
+      bottom:0;
+      left:180px;
+      right:0;
+}
+
+.boxH{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Hleft{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:50px;
+      right:0;
+}
+.Hright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:200px;
+      right:0;
+}
+.Hhorizontal1{
+   width: 140px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:110px;
+      bottom:0;
+      left:60px;
+      right:0;
+}
+.Hhorizontal2{
+   width: 140px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:150px;
+      bottom:0;
+      left:60px;
+      right:0;
+}
+
+.boxI{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Ileft{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:100px;
+      right:0;
+}
+.Iright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+
+.boxJ{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Jhorizontal{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:45px;
+      right:0;
+}
+.Jleft{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:110px;
+      right:0;
+}
+.Jright{
+  width: 120px;
+    height: 230px;
+    border-color: transparent red red transparent;
+    border-radius: 0% 0% 40% 40%;
+    border-style: solid;
+    border-width: 10px;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:20px;
+      right:0;
+}
+
+
+.boxK{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Kleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Kleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Kdiagonal1{
+    width: 12px;
+    height: 130px;
+    transform: skew(-35deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:125px;
+      right:0;
+}
+.Kdiagonal2{
+     width: 12px;
+    height: 140px;
+    transform: skew(35deg);
+    background: red;
+  position: absolute;
+     top:140px;
+      bottom:0;
+      left:130px;
+      right:0;
+}
+
+.boxL{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Lleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Lleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Lhorizontal{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+
+.boxM{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Mleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:50px;
+      right:0;
+}
+.Mleft2{
+  width: 10px;
+    height: 200px;
+    background: red;
+   position: absolute;
+     top:80px;
+      bottom:0;
+      left:89px;
+      right:0;
+}
+.Mright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:205px;
+      right:0;
+}
+.Mdiagonal1{
+    width: 12px;
+    height: 130px;
+    transform: skew(30deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Mdiagonal2{
+    width: 12px;
+    height: 130px;
+    transform: skew(-30deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+
+.boxN{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Nleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:50px;
+      right:0;
+}
+.Nleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Nright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:205px;
+      right:0;
+}
+.Ndiagonal{
+    width: 12px;
+    height: 260px;
+    transform: skew(23deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:145px;
+      right:0;
+}
+
+.boxO{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-O{
+  width: 150px;
+  height: 250px;
+  border-color: red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Oleft2{
+  width: 10px;
+    height: 255px;
+    background: red;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxP{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-P{
+  width: 100px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  top:10px;
+  left: 80px;
+}
+.Pleft1{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:30px;
+      bottom:0;
+      left:45px;
+      right:0;
+}
+.Pleft2{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:30px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxQ{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-Q{
+  width: 150px;
+  height: 250px;
+  border-color: red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Qleft2{
+  width: 10px;
+    height: 255px;
+    background: red;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Qdiagonal{
+     width: 12px;
+    height: 90px;
+    transform: skew(35deg);
+    background: red;
+  position: absolute;
+     top:200px;
+      bottom:0;
+      left:190px;
+      right:0;
+}
+
+.boxR{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-R{
+  width: 80px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  top:10px;
+  left: 80px;
+}
+.Rleft1{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:30px;
+      bottom:0;
+      left:45px;
+      right:0;
+}
+.Rleft2{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:30px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Rdiagonal{
+     width: 12px;
+    height: 120px;
+    transform: skew(35deg);
+    background: red;
+    position: absolute;
+     top:150px;
+      bottom:0;
+      left:126px;
+      right:0;
+}
+
+.boxS{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:
+}
+.letter-S{
+  width: 120px;
+  height: 100px;
+  border-color: red transparent red red;
+  border-radius: 40% 40% 0% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 50px;
+}
+.letter-S:before{
+  content: "";
+  position: absolute;
+  top:83px;
+  left:-21px;
+  width: 140px;
+  height: 120px;
+  border-color: transparent red red transparent;
+  border-radius: 0% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+}
+.Sdetail1{
+  width: 10px;
+    height:110px;
+    background: red;
+   position: relative;
+     top:-119px;
+      bottom:0;
+      left:95px;
+      right:0;
+}
+.Sdetail2{
+  width: 10px;
+    height: 105px;
+    background: red;
+   position: relative;
+     top:-120px;
+      bottom:0;
+      left:170px;
+  right:0;
+}
+
+
+.boxT{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Tleft{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:100px;
+      right:0;
+}
+.Tright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.Thorizontal{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:45px;
+      right:0;
+}
+
+.boxU{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-U{
+  width: 150px;
+  height: 245px;
+  border-color: red;
+  border-radius: 0% 0% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  border-top:none;
+  position: relative;
+  top:10px;
+  left: 45px;
+}
+.Uleft2{
+  width: 10px;
+    height: 248px;
+    background: red;
+   position: absolute;
+     top:28px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxV{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Vdiagonal1{
+    width: 12px;
+    height: 260px;
+    transform: skew(17deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:85px;
+      right:0;
+}
+.Vdiagonal2{
+    width: 12px;
+    height: 260px;
+    transform: skew(-17deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Vdiagonal3{
+    width: 12px;
+    height: 195px;
+    transform: skew(17deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:115px;
+      right:0;
+}
+
+.boxW{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Wleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:50px;
+      right:0;
+}
+.Wleft2{
+  width: 10px;
+    height: 200px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:89px;
+      right:0;
+}
+.Wright{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:205px;
+      right:0;
+}
+.Wdiagonal1{
+    width: 12px;
+    height: 130px;
+    transform: skew(-30deg);
+    background: red;
+  position: absolute;
+     top:150px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Wdiagonal2{
+    width: 12px;
+    height: 130px;
+    transform: skew(30deg);
+    background: red;
+  position: absolute;
+     top:150px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+
+.boxX{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Xdouble1{
+    width: 10px;
+    height: 260px;
+    transform: skew(25deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.Xdouble2{
+    width: 10px;
+    height: 260px;
+    transform: skew(25deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:100px;
+      right:0;
+}
+.Xdiagonal1{
+   width: 10px;
+    height: 125px;
+    transform: skew(-25deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:166px;
+      right:0;
+}
+.Xdiagonal2{
+   width: 10px;
+    height: 125px;
+    transform: skew(-25deg);
+    background: red;
+  position: absolute;
+     top:155px;
+      bottom:0;
+      left:73px;
+      right:0;
+}
+
+.boxY{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Yleft{
+    width: 12px;
+    height: 130px;
+    transform: skew(30deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Yright1{
+    width: 12px;
+    height: 100px;
+    transform: skew(-30deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+      right:0;
+}
+.Yright2{
+    width: 12px;
+    height: 130px;
+    transform: skew(-30deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Ymiddle{
+  width: 10px;
+    height: 140px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:128px;
+      right:0;
+}
+
+.boxZ{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Zdiangonal{
+    width: 10px;
+    height: 260px;
+    transform: skew(-32deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:115px;
+      right:0;
+}
+.Zhorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Zhorizontal2{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Zdetail1{
+  width: 10px;
+    height:100px;
+    background: red;
+   position: absolute;
+     top:175px;
+      bottom:0;
+      left:100px;
+      right:0;
+}
+.Zdetail2{
+  width: 10px;
+    height: 90px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:140px;
+  right:0;
+}
+
+
+
+
+@media screen and (max-width:768px){
+  .boxA{
+    width:100%;
+    background-color:white;
+  }
+
+@media (orientation:landscape){
+  .Aleft{
+    background-color:pink;
+  }
+
+
+
+
