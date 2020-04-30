@@ -1,0 +1,142 @@
+.letter-a{
+	width: 100px;
+	height: 200px;
+	border-color: #47476b #47476b transparent #47476b;
+	border-style: solid;
+	border-width: 10px;
+	border-radius: 10% 10% 0% 0%;
+}
+
+.letter-a:before{
+	content: "";
+	position: absolute;
+	top: 100px;
+	left: 18px;
+	width: 100px;
+	height: 10px;
+	background-color: #47476b;
+}
+
+#container-a{
+    width: 200px;
+    height: 200px;
+    background-color: #00AAAA;
+}
+
+.a-dropped{
+    border:red 5px dotted;
+}
+
+.letter-b{
+    width: 100px;
+    height:100px;
+    border-color:#6666ff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 0% 20% 20% 0%;
+}
+
+.letter-b:before{
+    content:"";
+    position:absolute;
+    top:100px;
+    left:-10px;
+    width: 100px;
+    height: 100px;
+    border-color:#6666ff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 0% 20% 20% 0%;
+    
+}
+
+.grey-circle{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: dimgrey;
+    margin: 20px;
+}
+
+.grey-circle-border{
+    border:blue 5px dotted;
+}
+
+.letter-c{
+    width:100px;
+    height: 200px;
+    border-color: blue transparent blue blue;
+    border-style: solid;
+    border-radius: 20% 0% 0% 20%;
+    border-width: 10px;
+}
+
+.letter-d{
+    width: 100px;
+    height: 200px;
+    border-color: #009999;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 0% 20% 20% 0%;
+    position: relative;
+}
+.letter-d-touch{
+	animation-name: motion;
+	animation-duration: 4s;
+}
+
+@keyframes motion{
+	0%{left: 0px; top: 0px;}
+	25%{left: 200px; top:0px;}
+	50%{left: 200px; top: 200px;}
+	75%{left: 0px; top: 200px;}
+	100%{left: 0px; top: 0px;}
+}
+
+.letter-e{
+	width: 100px;
+	height: 200px;
+	border-color:#99ff33 transparent #99ff33 #99ff33;
+	border-width:10px;
+	border-style:solid;
+}
+
+.letter-e-crossbar{
+	width: 100px;
+	height: 10px;
+	background-color: #99ff33;
+	position: relative;
+	top: 100px;
+}
+
+.letter-f{
+	width: 100px;
+	height: 200px;
+	border-color: #ff66cc transparent #ff66cc #ff66cc;
+	border-width: 10px;
+	border-style: solid;
+}
+
+.letter-f-crossbar{
+	position: relative;
+	top: 100px;
+	width: 100px;
+	height: 10px;
+	background-color: #ff66cc;
+}
+
+.letter-f-hover{
+    background-image: linear-gradient(red,orange,yellow);
+}
+.letter-f-active{
+    background-image: radial-gradient(black,white);
+}
+
+
+
+
+
+
+
+
+

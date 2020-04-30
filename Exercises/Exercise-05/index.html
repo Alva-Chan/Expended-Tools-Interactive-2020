@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <div class="letter-a"></div>
+    <div class="letter-a"></div>
+    
+    <div id="container-a">
+    <p>abcdefghijklmnopqrstuvwxyz</p>
+    </div>
+    
+    <div class="letter-b"></div>
+    <div class="grey-circle"></div>
+    <div class="letter-c"></div>
+    <div class="letter-d"></div>
+    <div class="letter-e">
+    <div class="letter-e-crossbar"></div></div>
+    <div class="letter-f">
+    <div class="letter-f-crossbar"></div></div>
+    </body>
+    
+    <script>
+    
+        $(document).ready(function(){
+			$('.letter-a').draggable();
+            $('.letter-b').draggable();
+
+			$('#container-a').droppable({
+				accept: '.letter-a',
+				drop: function(event, ui){
+					$(this)
+					.addClass('a-dropped')
+                    .find('p')
+                    .html('Dropped!');
+				}
+			});
+            
+            
+		$('.grey-circle').droppable({
+		            scope: 'blue-border',
+		            drop: function(event, ui){
+		              $(this)
+		              .addClass("grey-circle-border");
+		            }
+		     });
+            
+            $('.letter-b').draggable({scope:'blue-border'});
+          $('.letter-c').draggable();
+
+		  $('.letter-d').droppable({
+		  		tolerance: 'touch',
+		  		drop: function(){
+		  			$(this)
+		  			.addClass('letter-d-touch');
+		  		}
+		  });
+            $('.letter-e').draggable();
+		  $('.letter-f').droppable({
+		  		activeClass:"letter-f-active",
+		  		hoverClass:"letter-f-hover",
+		  		drop: function(){
+		  			$(this)
+		  			.addClass('letter-f-hover');
+		  		}
+		  });
+            
+            
+
+		});
+        
+    </script>
+    
+</html>
