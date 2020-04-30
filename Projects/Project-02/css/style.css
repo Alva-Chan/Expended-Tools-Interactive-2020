@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/wood-texture-background.jpg");
+}
+
+#cover {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#cover h3, #cover h1 {
+	text-align: center;
+	color: #795548;
+	text-shadow: 2px 4px 4px #fff;
+}
+
+#character-holder-cover {
+	margin: 0 auto;
+	border: 2px solid #604020;
+	background-image: url("../img/wood-texture-background.jpg");
+}
+
+#character-holder {
+	width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.character {
+	display: block;
+    float: left;
+    width: 70px;
+    height: 70px;
+    /*border: 8px solid;*/
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    background: #ffffcc;
+    box-shadow: 7px 7px 10px #000;
+}
+
+
+.dropzone {
+	border:2px solid #604020;
+	margin: 20px auto 0 auto;
+	padding: 5px;
+}
+
+.container {
+	display: block;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 10px;
+}
+
+.container:not(.has-drop) {
+	outline: 2px dashed #b3d9ff;
+}
+
+.clear {
+	clear: both;
+}
+
+[class^="icon-"] {
+	font-size: 70px;
+}
+
+.makesmall {
+	font-size: 20px;
+}
+
+
+.container .character .makesmall {
+	font-size: 20px;
+}
+
+.container [class^="icon-"] {
+	font-size: 60px;
+}
+
+.container .character {
+	margin: 0;
+    width: 60px;
+    height: 60px;
+    transform: rotate(0deg);
+}
+
+.ui-droppable-hover {
+	background-color: #ffb3d9;
+}
+
+
+.red-block {
+	outline: 5px solid #ff99ce;
+	color: #ff99ce !important;
+	transform: rotate(5deg);
+}
+
+.green-block {
+	outline: 5px solid #ffd11a;
+	color: #ffd11a !important;
+	transform: rotate(-5deg);
+}
+
+.blue-block {
+	outline: 5px solid #80bfff;
+	color: #80bfff !important;
+	transform: rotate(10deg);
+}
+
+.ui-state-highlight {
+	border: 0px;
+}
+
+
+.empty-space {
+	height: 200px;
+}
+
+
+/*$unit: 0.75em; // base increment of size*/
+
+/*#items {
+    float:right;
+    margin-right:1.5em;
+    width:5em;    
+}
+
+#items .item {
+    width:7.5em; 
+    height:7.5em;
+    margin-top:1.5em;
+    border:0.075em solid black;
+    z-index:999; // for draggable
+}
+
+
+
+#containers {
+    float:left;
+    position:relative;
+    margin-left:15em; 
+    margin-top:15em;
+    
+    
+
+    // once dropped, fit
+    
+
+}
+
+.container {
+        position:absolute;
+        width:7.5em; 
+        height:7.5em;
+        border-width:0.15em;
+        border-style:solid;
+}
+
+
+#containers .container .item {
+    width:100%; 
+    height:100%;
+}
+
+#c1 {
+    border-color: red; 
+    top:0; left:0;
+}
+#c2 {
+    border-color: blue;
+    top:9em; left:9em;
+}
+#c3 {
+    border-color: green;
+    top:-9em; left:9em;
+}
+#c4 {
+    border-color: yellow;
+    top:9em; left:-9em;
+}
+#c5 {
+    border-color: purple;
+    top:-9em; left:-9em;
+}
+
+*/
