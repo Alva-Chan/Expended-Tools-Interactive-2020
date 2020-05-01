@@ -1,0 +1,818 @@
+#container{
+	display: flex;
+	margin:auto;
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height:400px;
+	justify-content:center;
+	flex-wrap:wrap;	
+}
+.boxA{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Aleft{
+    width: 10px;
+    height: 260px;
+    transform: skew(-15deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Aright{
+    width: 10px;
+    height: 260px;
+    transform: skew(15deg);
+    background: red;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Ahorizontal1{
+   width: 60px;
+    height: 10px;
+    background: red;
+    position: absolute;
+     top:120px;
+      bottom:0;
+      left:104px;
+      right:0;
+}
+.Ahorizontal2{
+   width: 90px;
+    height: 10px;
+    background: red;
+    position: absolute;
+     top:160px;
+      bottom:0;
+      left:87px;
+      right:0;
+}
+
+.boxB{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-B{
+  width: 140px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-B:before{
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-10px;
+  width: 145px;
+  height: 110px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+}
+.Bleft2{
+  width: 10px;
+    height: 240px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxC{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-C{
+  width: 150px;
+  height: 250px;
+  border-color: red transparent red red;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Cleft2{
+  width: 10px;
+    height: 255px;
+    background: red;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxD{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-D{
+  width: 150px;
+  height: 220px;
+  border-color: red;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.Dleft2{
+  width: 10px;
+    height: 230px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.boxE{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Eleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Eleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Ehorizontal3{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+
+.boxF{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Fleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Fleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+body{
+	background: #89cff0;
+}
+#container{
+	display: flex;
+	margin:auto;
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height:180px;
+	justify-content:center;
+	flex-wrap:wrap;	
+	background: blue;
+.boxA{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Aleft{
+    width: 10px;
+    height: 260px;
+    transform: skew(-15deg);
+    background: blue;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Aright{
+    width: 10px;
+    height: 260px;
+    transform: skew(15deg);
+    background: blue;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Ahorizontal1{
+   width: 60px;
+    height: 10px;
+    background: blue;
+    position: absolute;
+     top:120px;
+      bottom:0;
+      left:104px;
+      right:0;
+}
+.Ahorizontal2{
+   width: 90px;
+    height: 10px;
+    background: blue;
+    position: absolute;
+     top:160px;
+      bottom:0;
+      left:87px;
+      right:0;
+}
+
+.boxB{
+  width: 260px;
+  height: 300px;
+  background:yellow;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-B{
+  width: 140px;
+  height: 110px;
+  border-color: blue;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-B:before{
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-10px;
+  width: 145px;
+  height: 110px;
+  border-color: blue;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+}
+.Bleft2{
+  width: 10px;
+    height: 240px;
+    background: blue;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxC{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-C{
+  width: 150px;
+  height: 250px;
+  border-color: blue transparent blue blue;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Cleft2{
+  width: 10px;
+    height: 255px;
+    background: blue;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxD{
+  width: 260px;
+  height: 300px;
+  background:yellow;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-D{
+  width: 150px;
+  height: 220px;
+  border-color: blue;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.Dleft2{
+  width: 10px;
+    height: 230px;
+    background: blue;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.boxE{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Eleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Eleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Ehorizontal3{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+
+.boxF{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Fleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Fleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+	/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+#container{
+	box-sizing: border-box;
+	display: flex;
+	height:960px;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex-direction: column;
+	background:white;
+
+}
+
+.boxA{
+    width:260px;
+        height:300px;
+        background:green;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Aleft{
+    width: 10px;
+    height: 260px;
+    transform: skew(-15deg);
+    background: purple;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+.Aright{
+    width: 10px;
+    height: 260px;
+    transform: skew(15deg);
+    background: purple;
+  position: absolute;
+     top:20px;
+      bottom:0;
+      left:165px;
+      right:0;
+}
+.Ahorizontal1{
+   width: 60px;
+    height: 10px;
+    background: purple;
+    position: absolute;
+     top:120px;
+      bottom:0;
+      left:104px;
+      right:0;
+}
+.Ahorizontal2{
+   width: 90px;
+    height: 10px;
+    background: purple;
+    position: absolute;
+     top:160px;
+      bottom:0;
+      left:87px;
+      right:0;
+}
+
+.boxB{
+  width: 260px;
+  height: 300px;
+  background:blue;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-B{
+  width: 140px;
+  height: 110px;
+  border-color: purple;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.letter-B:before{
+  content: "";
+  position: absolute;
+  top:110px;
+  left:-10px;
+  width: 145px;
+  height: 110px;
+  border-color: purple;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+}
+.Bleft2{
+  width: 10px;
+    height: 240px;
+    background: purple;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+.boxC{
+    width:260px;
+        height:300px;
+        background:green;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.letter-C{
+  width: 150px;
+  height: 250px;
+  border-color: purple transparent purple purple;
+  border-radius: 40% 40% 40% 40%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 45px;
+}
+.Cleft2{
+  width: 10px;
+    height: 255px;
+    background: purple;
+   position: absolute;
+     top:25px;
+      bottom:0;
+      left:90px;
+      right:0;
+}
+
+.boxD{
+  width: 260px;
+  height: 300px;
+  background:pink;
+  margin: 20px;
+  box-sizing:border-box;
+  position:relative;
+}
+.letter-D{
+  width: 150px;
+  height: 220px;
+  border-color: purple;
+  border-radius: 0% 40% 40% 0%;
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+  left: 35px;
+}
+.Dleft2{
+  width: 10px;
+    height: 230px;
+    background: purple;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.boxE{
+    width:260px;
+        height:300px;
+        background:pink;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Eleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Eleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Ehorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Ehorizontal3{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:270px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+
+.boxF{
+    width:260px;
+        height:300px;
+        background:yellow;
+        margin:20px;
+        box-sizing:border-box;
+  position:relative;
+}
+.Fleft1{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+.Fleft2{
+  width: 10px;
+    height: 260px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal1{
+   width: 160px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:20px;
+      bottom:0;
+      left:40px;
+      right:0;
+}
+.Fhorizontal2{
+   width: 120px;
+    height: 10px;
+    background: red;
+   position: absolute;
+     top:140px;
+      bottom:0;
+      left:80px;
+      right:0;
+}
+
+
